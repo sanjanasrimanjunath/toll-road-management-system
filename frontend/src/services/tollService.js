@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL =
-  "http://localhost:5000/api/toll";
+  "https://toll-backend.onrender.com";
 
 // Pay Toll
 export const payToll = async (tollData) => {
