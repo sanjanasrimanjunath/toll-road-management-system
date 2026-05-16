@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://toll-backend-vjbi.onrender.com";
+const API_URL = "https://toll-backend-vjbi.onrender.com/api/vehicles";
 
 // Add Vehicle
 export const addVehicle = async (vehicleData) => {
